@@ -478,39 +478,54 @@
         <form class="review-form">
           <div class="review-form-field-wrapper">
             <label class="review-form-filed-label" for="user-name">Name</label>
-            <input
-              type="text"
-              class="review-form-input"
-              name="user-name"
-              id="user-name"
-              title="Yulia"
-              required
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                type="text"
+                class="review-form-input"
+                name="user-name"
+                id="user-name"
+                title="Yulia"
+                required
+              />
+              <svg class="review-form-field-icon" width="24" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-filed-label" for="user-phone"
               >Phone</label
             >
-            <input
-              type="tel"
-              class="review-form-input"
-              name="user-phone"
-              id="user-phone"
-              title="xxx-xxx-xx-xx"
-              required
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                type="tel"
+                class="review-form-input"
+                name="user-phone"
+                id="user-phone"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg class="review-form-field-icon" width="24" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-filed-label" for="user-email"
               >Email</label
             >
-            <input
-              type="email"
-              class="review-form-input"
-              name="user-email"
-              id="user-email"
-              required
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                type="email"
+                class="review-form-input"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <svg class="review-form-field-icon" width="24" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-filed-label" for="user-comment"
@@ -528,14 +543,23 @@
             <input
               type="checkbox"
               id="privacy-policy"
-              class="review-form-privacy-checkbox"
+              class="review-form-privacy-checkbox visually-hidden"
               name="privacy-policy"
               value="true"
               required
             />
 
-            <label for="privacy-policy" class="review-form-checkbox-label"
-              >I accept the terms and conditions of the
+            <label for="privacy-policy" class="review-form-checkbox-label">
+              <span class="review-form-own-checkbox">
+                <svg
+                  class="review-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="privacy-policy-link" href="">Privacy Policy</a>
             </label>
           </div>
