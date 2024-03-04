@@ -783,3 +783,6 @@ button {
   flex-direction: column;
   margin-bottom: 16px;
 }
+.footer-form-wrapper {
+  display: flex;
+}
