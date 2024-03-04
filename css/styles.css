@@ -507,6 +507,7 @@ button {
 .modal {
   position: absolute;
   display: flex;
+  flex-direction: column;
   top: 50%;
   left: 50%;
   width: 408px;
@@ -578,7 +579,7 @@ button {
 }
 .review-form-input {
   width: 100%;
-  height: 58px;
+  height: 40px;
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -689,7 +690,10 @@ button {
 .review-form-submit-button {
   border-radius: 4px;
   padding: 16px 32px;
-  margin: auto;
+  width: 169px;
+  height: 56px;
+  display: flex;
+  margin: 0 auto;
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 24px;
@@ -700,8 +704,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  justify-content: center;
   text-align: center;
   color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-submit-button:hover,
@@ -709,11 +715,6 @@ button {
   background-color: #404bbf;
 }
 
-.footer-form-wrapper {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
 .footer-subscribe-text {
   font-size: 16px;
   line-height: 1.5;
@@ -735,6 +736,7 @@ button {
   width: 165px;
   height: 40px;
   border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .footer-send-icon {
   fill: #fff;
@@ -772,9 +774,12 @@ button {
 .footer-form {
   display: flex;
   gap: 24px;
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
 }
 .footer-form-wrapper-label {
   display: flex;
   flex-direction: column;
-  margin-left: 80px;
+  margin-bottom: 16px;
 }
