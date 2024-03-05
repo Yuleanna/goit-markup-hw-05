@@ -602,6 +602,9 @@ button {
   margin-bottom: 8px;
 }
 
+.review-form-field-wrapper:nth-child(4) {
+  margin-bottom: 16px;
+}
 .review-form-input-wrapper {
   position: relative;
   margin-bottom: 16px;
