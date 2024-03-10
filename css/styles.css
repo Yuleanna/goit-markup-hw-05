@@ -607,7 +607,6 @@ button {
 }
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .review-form-field-icon {
@@ -713,10 +712,6 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
